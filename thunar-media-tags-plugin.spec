@@ -2,8 +2,8 @@
 
 Summary:     A tag plugin for the Thunar File Manager
 Name:       thunar-media-tags-plugin
-Version:    0.1.1
-Release:    %mkrel 4
+Version:    0.1.2
+Release:    %mkrel 1
 License:    GPL
 URL:        http://goodies.xfce.org/projects/panel-plugins
 Source0:    %{name}-%{version}.tar.bz2
@@ -39,7 +39,3 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc AUTHORS COPYING ChangeLog INSTALL README
 %{_libdir}/thunarx-1/*
-
-
-
-
