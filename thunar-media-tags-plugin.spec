@@ -11,7 +11,6 @@ Requires:	taglib >= 1.4
 BuildRequires:	thunar-devel >= 0.2.2
 BuildRequires:	taglib-devel >= 1.4
 BuildRequires:	perl(XML::Parser)
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The thunar-media-tags-plugin is a plugin for the Thunar File Manager, 
