@@ -1,7 +1,7 @@
 Summary:	A tag plugin for the Thunar File Manager
 Name:		thunar-media-tags-plugin
 Version:	0.1.2
-Release:	%mkrel 10
+Release:	%mkrel 11
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
