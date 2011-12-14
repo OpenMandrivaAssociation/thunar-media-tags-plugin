@@ -13,6 +13,7 @@ BuildRequires:	thunar-devel >= 0.2.2
 BuildRequires:	taglib-devel >= 1.4
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	intltool
+BuildRequires:	exo-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
