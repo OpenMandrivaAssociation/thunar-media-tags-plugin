@@ -1,11 +1,13 @@
+%define url_ver %(echo %{version} | cut -c 1-3)
+
 Summary:	A tag plugin for the Thunar File Manager
 Name:		thunar-media-tags-plugin
-Version:	0.1.2
-Release:	%mkrel 12
+Version:	0.2.0
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
-Source0:	http://goodies.xfce.org/releases/thunar-media-tags-plugin/%{name}-%{version}.tar.bz2
+Source0:	http://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	thunar >= 0.8.0
 BuildRequires:	thunar-devel >= 0.2.2
 BuildRequires:	taglib-devel >= 1.4
@@ -27,7 +29,7 @@ which adds ID3/OGG tag support to the bulk rename dialog.
 rm -rf %{buildroot}
 %makeinstall_std
 
-%find_lang %{name}
+%find_lang %{name} %{name}.lang
 
 %clean
 rm -rf %{buildroot}
