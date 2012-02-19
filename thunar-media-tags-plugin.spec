@@ -42,4 +42,4 @@ rm -rf %{buildroot}
 %files -f %{name}.lang
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog README
-%{_libdir}/thunarx-1/*
+%{_libdir}/thunarx-2/*
