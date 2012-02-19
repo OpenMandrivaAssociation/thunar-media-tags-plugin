@@ -8,6 +8,7 @@ License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
 Source0:	http://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
+Patch0:		thunar-media-tags-plugin-0.2.0-fix-linking.patch
 Requires:	thunar >= 0.8.0
 BuildRequires:	thunar-devel >= 0.2.2
 BuildRequires:	taglib-devel >= 1.4
@@ -22,8 +23,10 @@ which adds ID3/OGG tag support to the bulk rename dialog.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
+
 %configure2_5x
 %make
 
