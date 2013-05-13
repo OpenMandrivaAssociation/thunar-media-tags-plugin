@@ -2,19 +2,19 @@
 
 Summary:	A tag plugin for the Thunar File Manager
 Name:		thunar-media-tags-plugin
-Version:	0.2.0
-Release:	3
+Version:	0.2.1
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
 Source0:	http://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Patch0:		thunar-media-tags-plugin-0.2.0-fix-linking.patch
 Requires:	thunar >= 1.3.1
-BuildRequires:	thunar-devel >= 1.3.1
-BuildRequires:	taglib-devel >= 1.4
+BuildRequires:	pkgconfig(thunarx-2) >= 1.3.1
+BuildRequires:	pkgconfig(taglib) >= 1.4
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	intltool
-BuildRequires:	exo-devel >= 0.7.2
+BuildRequires:	pkgconfig(exo-1) >= 0.7.2
 
 %description
 The thunar-media-tags-plugin is a plugin for the Thunar File Manager, 
