@@ -14,7 +14,7 @@ BuildRequires:	pkgconfig(thunarx-3) >= 1.3.1
 BuildRequires:	pkgconfig(taglib) >= 1.4
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	intltool
-BuildRequires:	pkgconfig(exo-1) >= 0.7.2
+BuildRequires:	pkgconfig(exo-2) >= 0.7.2
 
 %description
 The thunar-media-tags-plugin is a plugin for the Thunar File Manager, 
