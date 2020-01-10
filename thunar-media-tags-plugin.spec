@@ -22,7 +22,7 @@ which adds ID3/OGG tag support to the bulk rename dialog.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %configure
