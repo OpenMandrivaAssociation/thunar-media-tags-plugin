@@ -7,7 +7,7 @@ Version:	0.3.0
 Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
+URL:		https://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
 Source0:	http://archive.xfce.org/src/thunar-plugins/thunar-media-tags-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	thunar
 BuildRequires:	pkgconfig(thunarx-3)
