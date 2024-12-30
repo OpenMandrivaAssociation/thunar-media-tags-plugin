@@ -33,5 +33,5 @@ which adds ID3/OGG tag support to the bulk rename dialog.
 %find_lang %{name} %{name}.lang
 
 %files -f %{name}.lang
-%doc AUTHORS ChangeLog README
+%doc AUTHORS ChangeLog
 %{_libdir}/thunarx-3/*
